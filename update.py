@@ -52,11 +52,11 @@ if DATABASE_URL is not None:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/SIESTAANI2002/anixmirror'
+    UPSTREAM_REPO = 'https://github.com/SIESTAANI2002/WZML91'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
-    UPSTREAM_BRANCH = 'hk_wzmlx'
+    UPSTREAM_BRANCH = 'master'
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
